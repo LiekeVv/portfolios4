@@ -1,0 +1,176 @@
+body {
+    width: 100vw;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.terug {
+    position: absolute;
+    top: 0;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.terug:hover {
+    border: 0.5px solid white;
+    background-color: #EBA966;
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------- hero ---------- */
+.hero {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-title {
+    position: absolute;
+    color: white;
+    right: 5%;
+    top: 65%;
+    font-size: 6vw;
+}
+
+/* ---------- navigation ---------- */
+nav {
+    width: 100%;
+    height: auto;
+}
+
+.nav-items {
+    width: 90%;
+    margin: 0 auto 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 0.5px solid black;
+}
+
+.kopje {
+    padding: 10px;
+}
+
+.kopje:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.current {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-items {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .kopje {
+        padding: 7px;
+    }
+}
+
+/* ---------- leerdoelen ---------- */
+.titel-leerdoel {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.uitleg-leerdoel {
+    font-size: 22px;
+    margin: 20px 0 60px;
+    font-style: italic;
+}
+
+.leerdoel {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.leerdoel a {
+    text-decoration: none;
+    color: black;
+}
+
+.leerdoel-text {
+    border: 0.5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.leerdoel-text:hover {
+    background-color: #EBA966;
+    color: white;
+    border: 0.5px solid white;
+}
+
+/* ---------- opdracht ---------- */
+.wrapper {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    border: 0.5px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+i {
+    height: fit-content;
+    align-self: flex-end;
+}
+
+.opdracht-title {
+    font-size: 20px;
+}
+
+.opdracht-tekst {
+    padding-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.tussenkopje {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* ---------- footer ---------- */
+footer {
+    background-color: #BECBCF;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tekst-footer {
+    padding: 20px 0;
+}
