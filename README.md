@@ -1,2 +1,4 @@
 # portfolios4
-My portfolio the 4th semester
+My portfolio for the 4th semester
+
+Check out the demo at http://i392267.hera.fhict.nl/portfolios4/ 
